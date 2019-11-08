@@ -1,64 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Git 基本语法讲解</title>
-      <link href="/2019/11/08/Git-grammar/"/>
-      <url>/2019/11/08/Git-grammar/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Markdown 基本语法</title>
-      <link href="/2019/11/08/Markdown_basic_grammar/"/>
-      <url>/2019/11/08/Markdown_basic_grammar/</url>
-      
-        <content type="html"><![CDATA[<p>在目前的技术性应用中，Markdown应用还算是较为广泛。比如国内的简书、掘金都支持Markdown语法，并且Markdown语法简单易用，基本看十分钟教程便可轻易上手写出一篇属于自己的文章，针对于程序猿来说，Markdown语法轻便还条理清晰，是程序猿的不二之选。</p><a id="more"></a><h1 id="Markdown是什么？"><a href="#Markdown是什么？" class="headerlink" title="Markdown是什么？"></a>Markdown是什么？</h1><ul><li>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</li><li>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</li><li>Markdown 编写的文档后缀为 <code>.md</code>,<code>.markdown</code>  </li></ul><h1 id="Markdown怎么写？"><a href="#Markdown怎么写？" class="headerlink" title="Markdown怎么写？"></a>Markdown怎么写？</h1><p>下面我来介绍一下Markdown的基本语法是个什么样的<br>首先我来推荐一下Windows系统下特别好用Markdown编辑器 —— <code>Typora</code></p><h2 id="分级标题"><a href="#分级标题" class="headerlink" title="分级标题"></a>分级标题</h2><p><code>#</code>来表示标题的级别，<code>#</code>越少级别越高<br>例如：  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br></pre></td></tr></table></figure><p>效果图:  </p><blockquote><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5></blockquote><h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>在需要<em>斜体<em>操作的数据前后分别加上一个 *<br>例如：`</em>李森<em>`<br>效果：</em>李森</em>  </p><h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><p>在需要<strong>粗体</strong>操作的数据前后分别加上一个 *<br>例如：<code>**李森**</code><br>效果：<strong>李森</strong>  </p><h2 id="斜粗体"><a href="#斜粗体" class="headerlink" title="斜粗体"></a>斜粗体</h2><p>在需要<strong><em>斜粗体</em></strong>体操作的数据前后分别加上一个 *<br>例如：<code>***李森***</code><br>效果：<strong><em>李森</em></strong>  </p><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p><code>---</code>或者<code>+++</code>或者<code>***</code>三个或者三个以上即可<br>例如：<code>---</code><br>效果：  </p><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote><p>引用1</p><blockquote><p>引用2</p><blockquote><p>引用3</p><blockquote><p>引用4  </p></blockquote></blockquote></blockquote></blockquote><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><ul><li><h3 id="间接链接（只显示名称）"><a href="#间接链接（只显示名称）" class="headerlink" title="间接链接（只显示名称）"></a>间接链接（只显示名称）</h3><p><code>[链接名称](http://链接网址)</code>在中括号[ ]中填上网址要显示的名称，在小括号（）中填上要链接的网址即可。<br>例如：<code>[李森的个人博客](https://www.lisen.plus)</code><br>效果：<a href="https://www.lisen.plus" target="_blank" rel="noopener">李森的个人博客</a>  </p></li><li><h3 id="直接链接（只显示网址）"><a href="#直接链接（只显示网址）" class="headerlink" title="直接链接（只显示网址）"></a>直接链接（只显示网址）</h3><p><code>&lt;https://链接网址部分&gt;</code>直接在<code>链接网址部分</code>添加网址即可<br>例如：<code>&lt;https://www.lisen.plus&gt;</code><br>效果：<a href="https://www.lisen.plus" target="_blank" rel="noopener">https://www.lisen.plus</a></p></li></ul><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><code>![图片名称](https://图片网址部分)</code><br>例如：<code>![惊喜](https:/***.***.***)</code><br>效果：<img src="https://www.google.com/search?q=%E5%A4%A9%E6%B4%A5%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E5%9B%BE%E7%89%87&rlz=1C1SQJL_zh-CNUS850US850&sxsrf=ACYBGNSUTRRVIm0rApuVWgNAtuZBQbS5YA:1573207167309&tbm=isch&source=iu&ictx=1&fir=bOVLaoGYe57ciM%253A%252CDVUFi8em3yERWM%252C_&vet=1&usg=AI4_-kSvIKBGLdYmezmwpurGgRbLH-n_FA&sa=X&ved=2ahUKEwjW__WyrdrlAhU7xosBHfqoCnYQ9QEwAHoECAkQBg#imgrc=bOVLaoGYe57ciM:" alt="Suprise"></p><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><ul><li><p>单行代码：<br>  用反引号”`“将代码包起来  </p><p>  例如：`cout&lt;&lt;”雷某有点傻”;`  </p><p>  效果：<code>cout&lt;&lt;&quot;雷某有点傻&quot;;</code></p></li><li><p>多行代码：<br>  用```代码内容``` 格式书写  </p><p>  例如：<br>  ```<br>  int a = 1;<br>  int b = 2;<br>  int c;<br>  c = a + b;<br>  cout&lt;&lt;c;<br>  ```  </p><p>  效果：</p>  <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">1</span>;  </span><br><span class="line"><span class="keyword">int</span> b = <span class="number">2</span>;  </span><br><span class="line"><span class="keyword">int</span> c;  </span><br><span class="line">c = a + b;  </span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;c;</span><br></pre></td></tr></table></figure><p>  注意：在代码块结束的时候的```后面一定不要加空格！！！ </p></li></ul><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h3><p>一个<code>-</code>或<code>+</code>或<code>*</code>都可以表示无序列表，但是需要注意的是：<code>-</code>或<code>+</code>或<code>*</code>需要和标题之间留一个空格！否则无效！否则无效！否则无效！<br>例如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- 李森</span><br><span class="line">* 雷某</span><br><span class="line">+ 陈某</span><br></pre></td></tr></table></figure><p>效果：</p><ul><li>李森</li></ul><ul><li>雷某</li></ul><ul><li>陈某  </li></ul><h3 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h3><p>数字直接加点即可！注意：同无序列表一样，数字加点与之后的标题一定要留一个空格！！！<br>例如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 李森</span><br><span class="line">2. 雷某</span><br><span class="line">3. 陈某</span><br></pre></td></tr></table></figure><p>效果：</p><ol><li>李森</li><li>雷某</li><li>陈某  </li></ol><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>语法如下：在Markdown的表格语法中，第二行主要是定义表格的<code>居左</code>或<code>居中</code>或<code>居右</code>的属性的。  </p><ul><li>当<code>:</code>在<code>-</code>左边时，居左；</li><li>当<code>:</code>在<code>-</code>右边时，居右；</li><li>当<code>:</code>在<code>-</code>两边时，居中；</li><li>当只有<code>-</code>左边时，默认居左；</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|表头|表头|表头|表头|  </span><br><span class="line">|-|:-|:-:|-:|   </span><br><span class="line">|-|内容|内容|内容|  </span><br><span class="line">|-|内容|内容|内容|</span><br></pre></td></tr></table></figure><p>例子:  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|姓名|年龄|是否沙雕|关系|  </span><br><span class="line">|:-:|-:|:-|-|  </span><br><span class="line">|李森|22|否|父亲|  </span><br><span class="line">|雷某|21|是|儿子|</span><br></pre></td></tr></table></figure><p>效果:  </p><table><thead><tr><th align="center">姓名</th><th align="right">年龄</th><th align="left">是否沙雕</th><th>关系</th></tr></thead><tbody><tr><td align="center">李森</td><td align="right">22</td><td align="left">否</td><td>父亲</td></tr><tr><td align="center">雷某</td><td align="right">21</td><td align="left">是</td><td>儿子</td></tr></tbody></table><h1 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h1><p>待更！！！<br>待更！！！<br>待更！！！<br>重要的事情说三遍！！！</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2019/11/06/hello-world/"/>
-      <url>/2019/11/06/hello-world/</url>
-      
-        <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="嘻嘻嘻, 这里需要密码." />    <label for="hbePass">嘻嘻嘻, 这里需要密码.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="4478f9bde299cf3d7ee734ff598d481e7dd9039e31324bc2535e016eb7a6b37d">ac74dad58ebb2fc20be4458ac897b463cd023e573b7bbc60780cc1031cdf8e1760362501cb0c1a2c16f221650cd6d22a919242c0c84e69057a469a31b27db0536992fcb4890a0c4e8e240ffed8983954a8374f54ad1aac4cae9997c67fe8f9c19955d1a3dfbbb30d42a88221fce9988e61cebb601c6c4214339c57bbf64ab9711557de7a4400ac7c014b9bc833a6bd52ec9181790223d1e4542e11d27fa00746d8204b8d24e1496886c9d860cd012627f975df07524542f1e203125d34888be5109a529a36ba3b6835a8ca70aa15c1671f672723395d890bb05e88c4d653514542dc21d054276c72a34fccb8ad13007b2b1c033bc9c6fdcb2f3ab3314a97f613fcc14625c7fbb4cabc856e42925aa8f7ee1c51409d4feb73e9080847a2c57183dd6d58e558fe1d3ce94db9662ed6d8b1546fc494d5c4198a67fb761fcc67ce0f616c1fc789ab79b709bc7a50990622e51903dd0ead1007958c39f8b665289155fa2107de931e480d5452ff102d908fa9505f7685c9515c034b407465f104638aaf4c63b29905b99a4178eec0eee0bd05a3ed045fd18c2ff09c1d07a947a1a8277415d890789bcc9e40e98d4fcb4a52729ea563260f1cf4e0aecce902f0d6c8ec604f093f6c1cb682b9995df20c2960ebaac6a8ad626d1b1902e03d48da1f7556aed1d98f8a45ce9750ba33af8f7b6b534f57ea782b946bfa0dedf5cd8d947c5f8dfd04c17e22f167a5ab91c18bf995a3681a6f2d0424a10b8d49c092a99239a48975680ef4c951fcb3ad39c3dfd028c77243feff71a46146f3f17feec593981afa3dc5a8ce70d57e18c4fe8822197e359be170e094e9e7015a6cabee322ed32eb3be463974300ddd996bd2b8f4df8ce58a7380a0bdf4e2fdc2a52405384849f2bfc7bf067f13ba242e6a72bf2d17509698b0637a46a8716ab2b4ecb4c9d215e98b755331f1b502ab01e334be57c6eb3fabac1edf27184a304c0257c465f703efbb46255a89696114bb43e977cbcacc5de46dc2fc8ebaa389ca39d85928442e59f4a232707bc00eef99abb1e3e7e86429ed1f8c9f655e59da7e6e0f25fa137b14a25dcf193217e39e975035b8e2adbad8bcd0590e717eaaca394c6bbde7448b124d0a640f1224797397a11ad3aa149ab0825b15f46c10020c4cdf35ad0ef52eedbf81ef23b356ed55222cbc2efd892ede1d91c31206139749be69eb0a68b6d0f95e5d89509fc58d08cf19f0c694d391001b5b1e0718ccf41ff118bd62e3a4df135cce669436679efde5601b54776c96782db594ed06cfb7424a1be714cdb4fa715e6c4996f54bc55450337f6b745f62c2ca2a5113896a9eaaeb0916213bb43993d76ec0a7e061b4b14fe62df55105382e77562a29d2a9192f698db97dc610e85a7835af52a3e4425e9a358d318de941643bf120882605680f18ba85bc10261e4237f3c6c95ad909ca5fd5d8cb46eb1f38d55ae9de94c9345602b7cf5446315e9871a784b5415c02fc2991f586bde3249550d400329b5d4c5aaac97df920b792b6619738c07d8ee8485a75ccf419fa8f815add3d5b29c465e7ee5988421b1f2265ddd08d0a2012bf0991ee36a1683139d333873400adf426c9dfbec3d73059f03ac4e4d5abfcb31d7ba56c8c500d5efad7bed14405e0f4a5766d9353375253c19b90625bcf9668191267cf47852db6d81275c628949353f7cb7c2b9dc98459fda8559a2b147fd3665c9fd5bede76a3505f1f7b0542a468e5ef4b3fcfe6c9751e21b11017bd7bf2deae071f1b7ac3391dfe2fdb0f1b9066eddc96435e560ab1ec714e2d3d6ffb836d79986eb7d1da6cdc65d748d3993606668d0388ab9b8d0eb8cef41457d90506ce6208875157d364fc423d24749bf79d36e9f2e6a1d1be3b52d967d22c2fde2a7ca0e1b20ed6b31d026cf8a4538d410052ff2ac7aeff586033737e558f944b615da823b41cafc0f76b56b7efd4f07e97ec61f272d35a45ccdb346fe16fc1120a4ea1c14014662f50c003ec417a375a6b83313e8a589e8fcb7c69fb1b72697b56c58d299ea5f33be6d0b7894f937d852cdfe9cbf36a4f83ec00cb2bc69d13d312f2eebab9035b74511a3eb6524674b31ac72aa1f8b5f081144f1b9257620c54093da10be35daccb832cfdf8bd2f510431ad952253b6910785a3b3c2f052c22f127cdbe4a707c56bf76cf6f505d9de5a157be65c5fc859b94c50683efdfc110f9f74f94feb27a1ecb98697fd4e5735b6df9277f8e3871fff0150e95ef64ac1d6426fa921fe7f447fe0265f858ab00da81cd65d9d25fe06d2fa3151412192c010a8e7cc74d227bb3643626eccffcd39ccb04a07c1522b0477db03791e6e4616548581df632833f886cc442c8eddbb4b57ec733e3cdc323a79f1f773f379210526080c42751fcd46757a3567eef1ebb39a41c7cc1f717221cf87f8d8e0c58d0e8c6638b68a25bb5bb5d74ff637468e79b386cf3ab38189446a73a13ed2bf822cbd3d597f1ee8cfcb26a4bc0d6179ca3dc67d76a0b6b8218d8b071157578a71be79ab23935ebc58c46e9e459e3c2375f51a0d69c3e50311dcb8554636d7a7db4fee5d9b71408ae4c99711e82b54404e7a7bf251574655828bd7a8f7f57aca1fdc03f2b0310ea965c1b7de0d0acab54017ddf1dbf6779d494905c83c4b6800b30eb7243a95e2d10911418a07a71532e062ec2b10836e60e452a6c34f797e233d68df3f3acfa507fdb4eace90e8f3544bba37150df6ec0ef9dd5b1706204873538e0cd77ddf681b01e2781de88c7b8f16c9206eaa301471c327f2ab449b550580d237924345ccb5d55da9c3bec4da78f98c702189594886695b478fa89acc9fc80244cbea9cd3fda888a2a714c23e76fa80470a376c73496ca68167121a84687d9e14947b8f51bf3152969764376f4820d55504427d669eaa703e9ba1fb6017a3c5621ea3793bfb50550bdc907862e491a28eb88b8feadabd748973f10c71731e8964546f11edb51f77e71013e38e78e5dc2146ae8d5c6e803cceed1d844c12aea1d8e5b8c873a82355aba5dbc920652be3743da1d60096c55065723b373fab1e517a3e874d2a5da730bdc60f37e49c534c907e37cd8d7c38f979da8c58ca153021d75c986948f5dd81be647a64a1c7233b485a5db00520e98e8883738f52eee9ed9a2cee28d7fb25426b02f90f901b443d29fa0e1f1e60b598627368befdad577960589ce2036d81f8154a4cafee7c3d8ea1190b9709a0692b6e002b60054b4cd78189042675bb017292c705a9f153844182a01a2284e79c3eb27622fce9e6326d52ea2632b72a19ba3d5ff4cad1492b4c32de461e4b4d4b8a09e4d2a17217c9628ae3e6fb2a4b0828394e4839b5a3b930168bbc86b9a60f08ed1d465bf8d0957c20ea2ee76a5f000f46de8496f07d15b4f954d8332fec49676f5b0c89c252d5aeef5142168f2beacf10243bfd</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> ex </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>Git 基本语法讲解</title>
+    <url>/2019/11/08/Git-grammar/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown 基本语法</title>
+    <url>/2019/11/08/Markdown_basic_grammar/</url>
+    <content><![CDATA[<p>在目前的技术性应用中，Markdown应用还算是较为广泛。比如国内的简书、掘金都支持Markdown语法，并且Markdown语法简单易用，基本看十分钟教程便可轻易上手写出一篇属于自己的文章，针对于程序猿来说，Markdown语法轻便还条理清晰，是程序猿的不二之选。</p><a id="more"></a>
+<h1 id="Markdown是什么？"><a href="#Markdown是什么？" class="headerlink" title="Markdown是什么？"></a>Markdown是什么？</h1><ul>
+<li>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</li>
+<li>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</li>
+<li>Markdown 编写的文档后缀为 <code>.md</code>,<code>.markdown</code>  </li>
+</ul>
+<h1 id="Markdown怎么写？"><a href="#Markdown怎么写？" class="headerlink" title="Markdown怎么写？"></a>Markdown怎么写？</h1><p>下面我来介绍一下Markdown的基本语法是个什么样的<br>首先我来推荐一下Windows系统下特别好用Markdown编辑器 —— <code>Typora</code></p>
+<h2 id="分级标题"><a href="#分级标题" class="headerlink" title="分级标题"></a>分级标题</h2><p><code>#</code>来表示标题的级别，<code>#</code>越少级别越高<br>例如：  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br></pre></td></tr></table></figure>
+<p>效果图:  </p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5></blockquote>
+<h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>在需要<em>斜体<em>操作的数据前后分别加上一个 *<br>例如：`</em>李森<em>`<br>效果：</em>李森</em>  </p>
+<h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><p>在需要<strong>粗体</strong>操作的数据前后分别加上一个 *<br>例如：<code>**李森**</code><br>效果：<strong>李森</strong>  </p>
+<h2 id="斜粗体"><a href="#斜粗体" class="headerlink" title="斜粗体"></a>斜粗体</h2><p>在需要<strong><em>斜粗体</em></strong>体操作的数据前后分别加上一个 *<br>例如：<code>***李森***</code><br>效果：<strong><em>李森</em></strong>  </p>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p><code>---</code>或者<code>+++</code>或者<code>***</code>三个或者三个以上即可<br>例如：<code>---</code><br>效果：  </p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote>
+<p>引用1</p>
+<blockquote>
+<p>引用2</p>
+<blockquote>
+<p>引用3</p>
+<blockquote>
+<p>引用4  </p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><ul>
+<li><h3 id="间接链接（只显示名称）"><a href="#间接链接（只显示名称）" class="headerlink" title="间接链接（只显示名称）"></a>间接链接（只显示名称）</h3><p><code>[链接名称](http://链接网址)</code>在中括号[ ]中填上网址要显示的名称，在小括号（）中填上要链接的网址即可。<br>例如：<code>[李森的个人博客](https://www.lisen.plus)</code><br>效果：<a href="https://www.lisen.plus" target="_blank" rel="noopener">李森的个人博客</a>  </p>
+</li>
+<li><h3 id="直接链接（只显示网址）"><a href="#直接链接（只显示网址）" class="headerlink" title="直接链接（只显示网址）"></a>直接链接（只显示网址）</h3><p><code>&lt;https://链接网址部分&gt;</code>直接在<code>链接网址部分</code>添加网址即可<br>例如：<code>&lt;https://www.lisen.plus&gt;</code><br>效果：<a href="https://www.lisen.plus" target="_blank" rel="noopener">https://www.lisen.plus</a></p>
+</li>
+</ul>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><code>![图片名称](https://图片网址部分)</code><br>例如：<code>![惊喜](https:/***.***.***)</code><br>效果：<img src="https://www.google.com/search?q=%E5%A4%A9%E6%B4%A5%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E5%9B%BE%E7%89%87&rlz=1C1SQJL_zh-CNUS850US850&sxsrf=ACYBGNSUTRRVIm0rApuVWgNAtuZBQbS5YA:1573207167309&tbm=isch&source=iu&ictx=1&fir=bOVLaoGYe57ciM%253A%252CDVUFi8em3yERWM%252C_&vet=1&usg=AI4_-kSvIKBGLdYmezmwpurGgRbLH-n_FA&sa=X&ved=2ahUKEwjW__WyrdrlAhU7xosBHfqoCnYQ9QEwAHoECAkQBg#imgrc=bOVLaoGYe57ciM:" alt="Suprise"></p>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><ul>
+<li><p>单行代码：<br>  用反引号”`“将代码包起来  </p>
+<p>  例如：`cout&lt;&lt;”雷某有点傻”;`  </p>
+<p>  效果：<code>cout&lt;&lt;&quot;雷某有点傻&quot;;</code></p>
+</li>
+<li><p>多行代码：<br>  用```代码内容``` 格式书写  </p>
+<p>  例如：<br>  ```<br>  int a = 1;<br>  int b = 2;<br>  int c;<br>  c = a + b;<br>  cout&lt;&lt;c;<br>  ```  </p>
+<p>  效果：</p>
+  <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">1</span>;  </span><br><span class="line"><span class="keyword">int</span> b = <span class="number">2</span>;  </span><br><span class="line"><span class="keyword">int</span> c;  </span><br><span class="line">c = a + b;  </span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;c;</span><br></pre></td></tr></table></figure>
+<p>  注意：在代码块结束的时候的```后面一定不要加空格！！！ </p>
+</li>
+</ul>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h3><p>一个<code>-</code>或<code>+</code>或<code>*</code>都可以表示无序列表，但是需要注意的是：<code>-</code>或<code>+</code>或<code>*</code>需要和标题之间留一个空格！否则无效！否则无效！否则无效！<br>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">- 李森</span><br><span class="line">* 雷某</span><br><span class="line">+ 陈某</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<ul>
+<li>李森</li>
+</ul>
+<ul>
+<li>雷某</li>
+</ul>
+<ul>
+<li>陈某  </li>
+</ul>
+<h3 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h3><p>数字直接加点即可！注意：同无序列表一样，数字加点与之后的标题一定要留一个空格！！！<br>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. 李森</span><br><span class="line">2. 雷某</span><br><span class="line">3. 陈某</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<ol>
+<li>李森</li>
+<li>雷某</li>
+<li>陈某  </li>
+</ol>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>语法如下：在Markdown的表格语法中，第二行主要是定义表格的<code>居左</code>或<code>居中</code>或<code>居右</code>的属性的。  </p>
+<ul>
+<li>当<code>:</code>在<code>-</code>左边时，居左；</li>
+<li>当<code>:</code>在<code>-</code>右边时，居右；</li>
+<li>当<code>:</code>在<code>-</code>两边时，居中；</li>
+<li>当只有<code>-</code>左边时，默认居左；</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">|表头|表头|表头|表头|  </span><br><span class="line">|-|:-|:-:|-:|   </span><br><span class="line">|-|内容|内容|内容|  </span><br><span class="line">|-|内容|内容|内容|</span><br></pre></td></tr></table></figure>
+<p>例子:  </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">|姓名|年龄|是否沙雕|关系|  </span><br><span class="line">|:-:|-:|:-|-|  </span><br><span class="line">|李森|22|否|父亲|  </span><br><span class="line">|雷某|21|是|儿子|</span><br></pre></td></tr></table></figure>
+<p>效果:  </p>
+<table>
+<thead>
+<tr>
+<th align="center">姓名</th>
+<th align="right">年龄</th>
+<th align="left">是否沙雕</th>
+<th>关系</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">李森</td>
+<td align="right">22</td>
+<td align="left">否</td>
+<td>父亲</td>
+</tr>
+<tr>
+<td align="center">雷某</td>
+<td align="right">21</td>
+<td align="left">是</td>
+<td>儿子</td>
+</tr>
+</tbody></table>
+<h1 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h1><p>待更！！！<br>待更！！！<br>待更！！！<br>重要的事情说三遍！！！</p>
+]]></content>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/11/06/hello-world/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="嘻嘻嘻, 这里需要密码." />
+    <label for="hbePass">嘻嘻嘻, 这里需要密码.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="4478f9bde299cf3d7ee734ff598d481e7dd9039e31324bc2535e016eb7a6b37d">ac74dad58ebb2fc20be4458ac897b463cd023e573b7bbc60780cc1031cdf8e1760362501cb0c1a2c16f221650cd6d22a919242c0c84e69057a469a31b27db0536992fcb4890a0c4e8e240ffed8983954a8374f54ad1aac4cae9997c67fe8f9c19955d1a3dfbbb30d42a88221fce9988e61cebb601c6c4214339c57bbf64ab9711557de7a4400ac7c014b9bc833a6bd52ec9181790223d1e4542e11d27fa00746d8204b8d24e1496886c9d860cd012627f975df07524542f1e203125d34888be5109a529a36ba3b6835a8ca70aa15c1671f672723395d890bb05e88c4d653514542dc21d054276c72a34fccb8ad13007b2b1c033bc9c6fdcb2f3ab3314a97f613fcc14625c7fbb4cabc856e42925aa8f7ee1c51409d4feb73e9080847a2c57183dd6d58e558fe1d3ce94db9662ed6d8b1546fc494d5c4198a67fb761fcc67ce0f616c1fc789ab79b709bc7a50990622e51903dd0ead1007958c39f8b665289155fa2107de931e480d5452ff102d908fa9505f7685c9515c034b407465f104638aaf4c63b29905b99a4178eec0eee0bd05a3ed045fd18c2ff09c1d07a947a1a8277415d890789bcc9e40e98d4fcb4a52729ea563260f1cf4e0aecce902f0d6c8ec604f093f6c1cb682b9995df20c2960ebaac6a8ad626d1b1902e03d48da1f7556aed1d98f8a45ce9750ba33af8f7b6b534f57ea782b946bfa0dedf5cd8d947c5f8dfd04c17e22f167a5ab91c18bf995a3681a6f2d0424a10b8d49c092a99239a48975680ef4c951fcb3ad39c3dfd028c77243feff71a46146f3f17feec593981afa3dc5a8ce70d57e18c4fe8822197e359be170e094e9e7015a6cabee322ed32eb3be463974300ddd996bd2b8f4df8ce58a7380a0bdf4e2fdc2a52405384849f2bfc7bf067f13ba242e6a72bf2d17509698b0637a46a8716ab2b4ecb4c9d215e98b755331f1b502ab01e334be57c6eb3fabac1edf27184a304c0257c465f703efbb46255a89696114bb43e977cbcacc5de46dc2fc8ebaa389ca39d85928442e59f4a232707bc00eef99abb1e3e7e86429ed1f8c9f655e59da7e6e0f25fa137b14a25dcf193217e39e975035b8e2adbad8bcd0590e717eaaca394c6bbde7448b124d0a640f1224797397a11ad3aa149ab0825b15f46c10020c4cdf35ad0ef52eedbf81ef23b356ed55222cbc2efd892ede1d91c31206139749be69eb0a68b6d0f95e5d89509fc58d08cf19f0c694d391001b5b1e0718ccf41ff118bd62e3a4df135cce669436679efde5601b54776c96782db594ed06cfb7424a1be714cdb4fa715e6c4996f54bc55450337f6b745f62c2ca2a5113896a9eaaeb0916213bb43993d76ec0a7e061b4b14fe62df55105382e77562a29d2a9192f698db97dc610e85a7835af52a3e4425e9a358d318de941643bf120882605680f18ba85bc10261e4237f3c6c95ad909ca5fd5d8cb46eb1f38d55ae9de94c9345602b7cf5446315e9871a784b5415c02fc2991f586bde3249550d400329b5d4c5aaac97df920b792b6619738c07d8ee8485a75ccf419fa8f815add3d5b29c465e7ee5988421b1f2265ddd08d0a2012bf0991ee36a1683139d333873400adf426c9dfbec3d73059f03ac4e4d5abfcb31d7ba56c8c500d5efad7bed14405e0f4a5766d9353375253c19b90625bcf9668191267cf47852db6d81275c628949353f7cb7c2b9dc98459fda8559a2b147fd3665c9fd5bede76a3505f1f7b0542a468e5ef4b3fcfe6c9751e21b11017bd7bf2deae071f1b7ac3391dfe2fdb0f1b9066eddc96435e560ab1ec714e2d3d6ffb836d79986eb7d1da6cdc65d748d3993606668d0388ab9b8d0eb8cef41457d90506ce6208875157d364fc423d24749bf79d36e9f2e6a1d1be3b52d967d22c2fde2a7ca0e1b20ed6b31d026cf8a4538d410052ff2ac7aeff586033737e558f944b615da823b41cafc0f76b56b7efd4f07e97ec61f272d35a45ccdb346fe16fc1120a4ea1c14014662f50c003ec417a375a6b83313e8a589e8fcb7c69fb1b72697b56c58d299ea5f33be6d0b7894f937d852cdfe9cbf36a4f83ec00cb2bc69d13d312f2eebab9035b74511a3eb6524674b31ac72aa1f8b5f081144f1b9257620c54093da10be35daccb832cfdf8bd2f510431ad952253b6910785a3b3c2f052c22f127cdbe4a707c56bf76cf6f505d9de5a157be65c5fc859b94c50683efdfc110f9f74f94feb27a1ecb98697fd4e5735b6df9277f8e3871fff0150e95ef64ac1d6426fa921fe7f447fe0265f858ab00da81cd65d9d25fe06d2fa3151412192c010a8e7cc74d227bb3643626eccffcd39ccb04a07c1522b0477db03791e6e4616548581df632833f886cc442c8eddbb4b57ec733e3cdc323a79f1f773f379210526080c42751fcd46757a3567eef1ebb39a41c7cc1f717221cf87f8d8e0c58d0e8c6638b68a25bb5bb5d74ff637468e79b386cf3ab38189446a73a13ed2bf822cbd3d597f1ee8cfcb26a4bc0d6179ca3dc67d76a0b6b8218d8b071157578a71be79ab23935ebc58c46e9e459e3c2375f51a0d69c3e50311dcb8554636d7a7db4fee5d9b71408ae4c99711e82b54404e7a7bf251574655828bd7a8f7f57aca1fdc03f2b0310ea965c1b7de0d0acab54017ddf1dbf6779d494905c83c4b6800b30eb7243a95e2d10911418a07a71532e062ec2b10836e60e452a6c34f797e233d68df3f3acfa507fdb4eace90e8f3544bba37150df6ec0ef9dd5b1706204873538e0cd77ddf681b01e2781de88c7b8f16c9206eaa301471c327f2ab449b550580d237924345ccb5d55da9c3bec4da78f98c702189594886695b478fa89acc9fc80244cbea9cd3fda888a2a714c23e76fa80470a376c73496ca68167121a84687d9e14947b8f51bf3152969764376f4820d55504427d669eaa703e9ba1fb6017a3c5621ea3793bfb50550bdc907862e491a28eb88b8feadabd748973f10c71731e8964546f11edb51f77e71013e38e78e5dc2146ae8d5c6e803cceed1d844c12aea1d8e5b8c873a82355aba5dbc920652be3743da1d60096c55065723b373fab1e517a3e874d2a5da730bdc60f37e49c534c907e37cd8d7c38f979da8c58ca153021d75c986948f5dd81be647a64a1c7233b485a5db00520e98e8883738f52eee9ed9a2cee28d7fb25426b02f90f901b443d29fa0e1f1e60b598627368befdad577960589ce2036d81f8154a4cafee7c3d8ea1190b9709a0692b6e002b60054b4cd78189042675bb017292c705a9f153844182a01a2284e79c3eb27622fce9e6326d52ea2632b72a19ba3d5ff4cad1492b4c32de461e4b4d4b8a09e4d2a17217c9628ae3e6fb2a4b0828394e4839b5a3b930168bbc86b9a60f08ed1d465bf8d0957c20ea2ee76a5f000f46de8496f07d15b4f954d8332fec49676f5b0c89c252d5aeef5142168f2beacf10243bfd</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>ex</tag>
+      </tags>
+  </entry>
 </search>
