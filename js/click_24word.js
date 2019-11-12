@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
             "left": x,
             "position": "absolute",
             "font-weight": "bold",
-            "color": "#ff6651"
+            "color": "#7600ff"
         });
         $("body").append($i);
         $i.animate({

@@ -42,7 +42,7 @@
     exturl: false,
     sidebar: {"position":"left","display":"always","offset":12,"onmobile":false},
     copycode: {"enable":true,"show_result":true,"style":"mac"},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
@@ -71,13 +71,13 @@
 <meta name="keywords" content="IT">
 <meta property="og:type" content="website">
 <meta property="og:title" content="李森">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;archives&#x2F;2018&#x2F;index.html">
+<meta property="og:url" content="http:&#x2F;&#x2F;www.lisen.plus&#x2F;archives&#x2F;2018&#x2F;index.html">
 <meta property="og:site_name" content="李森">
 <meta property="og:description" content="Harvester">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/archives/2018/">
+<link rel="canonical" href="http://www.lisen.plus/archives/2018/">
 
 
 <script id="page-configurations">
@@ -230,6 +230,7 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
 
 
     <main class="main">
@@ -402,10 +403,10 @@
 
 <div class="copyright">
   
-  &copy; 
+  &copy; 2017 – 
   <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">LiSen</span>
 </div>
@@ -499,14 +500,14 @@ NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
     notify: false,
     appId: 'QYa3bD7el6loqBJtlO7RtnFs-gzGzoHsz',
     appKey: 'AfOcwcITwW4B1131NY8YA8D7',
-    placeholder: "大佬,快来说出你想对我说的话......",
+    placeholder: "大佬,看完文章你不想说点啥嘛......",
     avatar: 'mm',
     meta: guest,
     pageSize: '10' || 10,
     visitor: true,
-    lang: '' || 'zh-cn',
+    lang: 'zh-cn' || 'zh-cn',
     path: location.pathname,
-    recordIP: false,
+    recordIP: true,
     serverURLs: ''
   });
 }, window.Valine);
