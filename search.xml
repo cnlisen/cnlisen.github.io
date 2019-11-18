@@ -1,86 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Git 基本语法讲解</title>
-    <url>/2019/11/08/Git-grammar/</url>
-    <content><![CDATA[<p>今天尝试这更新这篇技术博客！！！</p>]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown 基本语法</title>
-    <url>/2019/11/01/Markdown_basic_grammar/</url>
-    <content><![CDATA[<p>在目前的技术性应用中，Markdown应用还算是较为广泛。比如国内的简书、掘金都支持Markdown语法，并且Markdown语法简单易用，基本看十分钟教程便可轻易上手写出一篇属于自己的文章，针对于程序猿来说，Markdown语法轻便还条理清晰，是程序猿的不二之选。</p><a id="more"></a>
-<h1 id="Markdown是什么？"><a href="#Markdown是什么？" class="headerlink" title="Markdown是什么？"></a>Markdown是什么？</h1><ul>
-<li>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</li>
-<li>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</li>
-<li>Markdown 编写的文档后缀为 <code>.md</code>,<code>.markdown</code>  </li>
-</ul>
-<h1 id="Markdown怎么写？"><a href="#Markdown怎么写？" class="headerlink" title="Markdown怎么写？"></a>Markdown怎么写？</h1><p>下面我来介绍一下Markdown的基本语法是个什么样的<br>首先我来推荐一下Windows系统下特别好用Markdown编辑器 —— <code>Typora</code></p>
-<h2 id="分级标题"><a href="#分级标题" class="headerlink" title="分级标题"></a>分级标题</h2><p><code>#</code>来表示标题的级别，<code>#</code>越少级别越高<br>例如：  </p>
-<figure class="highlight clean"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br></pre></td></tr></table></figure>
-<p>效果图:  </p>
-<blockquote>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5></blockquote>
-<h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>在需要<em>斜体<em>操作的数据前后分别加上一个 *<br>例如：`</em>李森<em>`<br>效果：</em>李森</em>  </p>
-<h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><p>在需要<strong>粗体</strong>操作的数据前后分别加上一个 *<br>例如：<code>**李森**</code><br>效果：<strong>李森</strong>  </p>
-<h2 id="斜粗体"><a href="#斜粗体" class="headerlink" title="斜粗体"></a>斜粗体</h2><p>在需要<strong><em>斜粗体</em></strong>体操作的数据前后分别加上一个 *<br>例如：<code>***李森***</code><br>效果：<strong><em>李森</em></strong>  </p>
-<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p><code>---</code>或者<code>+++</code>或者<code>***</code>三个或者三个以上即可<br>例如：<code>---</code><br>效果：  </p>
-<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote>
-<p>引用1</p>
-<blockquote>
-<p>引用2</p>
-<blockquote>
-<p>引用3</p>
-<blockquote>
-<p>引用4  </p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
+    <title>Markdown语法（进阶版）</title>
+    <url>/2019/11/15/Markdown_advanced_grammar/</url>
+    <content><![CDATA[<p>前几天写了一份基础的Markdown语法介绍，Markdown语法十分简单，非程序员基本上看一遍都可以轻松上手，今天再写一份稍微深入一点（但平时可能用得不多，程序猿/媛应该会经常用），比如表格怎么画或者流程图怎么画这一类的深入语法讲解。</p><a id="more"></a>
 <h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><ul>
 <li><h3 id="间接链接（只显示名称）"><a href="#间接链接（只显示名称）" class="headerlink" title="间接链接（只显示名称）"></a>间接链接（只显示名称）</h3><p><code>[链接名称](http://链接网址)</code>在中括号[ ]中填上网址要显示的名称，在小括号（）中填上要链接的网址即可。<br>例如：<code>[李森的个人博客](https://www.lisen.plus)</code><br>效果：<a href="https://www.lisen.plus">李森的个人博客</a>  </p>
 </li>
 <li><h3 id="直接链接（只显示网址）"><a href="#直接链接（只显示网址）" class="headerlink" title="直接链接（只显示网址）"></a>直接链接（只显示网址）</h3><p><code>&lt;https://链接网址部分&gt;</code>直接在<code>链接网址部分</code>添加网址即可<br>例如：<code>&lt;https://www.lisen.plus&gt;</code><br>效果：<a href="https://www.lisen.plus">https://www.lisen.plus</a></p>
 </li>
 </ul>
-<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><code>![图片名称](https://图片网址部分)</code><br>例如：<code>![惊喜](https:/***.***.***)</code><br>效果：<img src="https://www.google.com/search?q=%E5%A4%A9%E6%B4%A5%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E5%9B%BE%E7%89%87&rlz=1C1SQJL_zh-CNUS850US850&sxsrf=ACYBGNSUTRRVIm0rApuVWgNAtuZBQbS5YA:1573207167309&tbm=isch&source=iu&ictx=1&fir=bOVLaoGYe57ciM%253A%252CDVUFi8em3yERWM%252C_&vet=1&usg=AI4_-kSvIKBGLdYmezmwpurGgRbLH-n_FA&sa=X&ved=2ahUKEwjW__WyrdrlAhU7xosBHfqoCnYQ9QEwAHoECAkQBg#imgrc=bOVLaoGYe57ciM:" alt="Suprise"></p>
-<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><ul>
-<li><p>单行代码：<br>  用反引号”`“将代码包起来  </p>
-<p>  例如：`cout&lt;&lt;”雷某有点傻”;`  </p>
-<p>  效果：<code>cout&lt;&lt;&quot;雷某有点傻&quot;;</code></p>
-</li>
-<li><p>多行代码：<br>  用```代码内容``` 格式书写  </p>
-<p>  例如：<br>  ```<br>  int a = 1;<br>  int b = 2;<br>  int c;<br>  c = a + b;<br>  cout&lt;&lt;c;<br>  ```  </p>
-<p>  效果：</p>
-  <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">1</span>;  </span><br><span class="line"><span class="keyword">int</span> b = <span class="number">2</span>;  </span><br><span class="line"><span class="keyword">int</span> c;  </span><br><span class="line">c = a + b;  </span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;c;</span><br></pre></td></tr></table></figure>
-<p>  注意：在代码块结束的时候的```后面一定不要加空格！！！ </p>
-</li>
-</ul>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h3><p>一个<code>-</code>或<code>+</code>或<code>*</code>都可以表示无序列表，但是需要注意的是：<code>-</code>或<code>+</code>或<code>*</code>需要和标题之间留一个空格！否则无效！否则无效！否则无效！<br>例如：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>李森</span><br><span class="line"><span class="bullet">* </span>雷某</span><br><span class="line"><span class="bullet">+ </span>陈某</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-<ul>
-<li>李森</li>
-</ul>
-<ul>
-<li>雷某</li>
-</ul>
-<ul>
-<li>陈某  </li>
-</ul>
-<h3 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h3><p>数字直接加点即可！注意：同无序列表一样，数字加点与之后的标题一定要留一个空格！！！<br>例如：</p>
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span> 李森</span><br><span class="line"><span class="number">2.</span> 雷某</span><br><span class="line"><span class="number">3.</span> 陈某</span><br></pre></td></tr></table></figure>
-<p>效果：</p>
-<ol>
-<li>李森</li>
-<li>雷某</li>
-<li>陈某  </li>
-</ol>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><code>![图片名称](https://图片网址部分)</code><br>例如：<code>![惊喜](https:/***.***.***)</code><br>效果：<img src="https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E4%B8%AD%E5%9B%BD&step_word=&hs=0&pn=42&spn=0&di=163460&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=2216323174%2C3797154129&os=830291046%2C592469079&simid=4254654160%2C792525102&adpicid=0&lpn=0&ln=995&fr=&fmq=1573801179603_R&fm=index&ic=0&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180926%2Ffe6a68e635014ecb97b26fb253851950.jpeg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bf5i7_z%26e3Bv54AzdH3FwAzdH3Fdcmnmbacn_mbbm9d&gsm=&rpstart=0&rpnum=0&islist=&querylist=&force=undefined" alt="Suprise"></p>
 <h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>语法如下：在Markdown的表格语法中，第二行主要是定义表格的<code>居左</code>或<code>居中</code>或<code>居右</code>的属性的。  </p>
 <ul>
 <li>当<code>:</code>在<code>-</code>左边时，居左；</li>
@@ -90,7 +20,7 @@
 </ul>
 <figure class="highlight gherkin"><table><tr><td class="code"><pre><span class="line">|<span class="string">表头</span>|<span class="string">表头</span>|<span class="string">表头</span>|<span class="string">表头</span>|<span class="string">  </span></span><br><span class="line">|<span class="string">-</span>|<span class="string">:-</span>|<span class="string">:-:</span>|<span class="string">-:</span>|<span class="string">   </span></span><br><span class="line">|<span class="string">-</span>|<span class="string">内容</span>|<span class="string">内容</span>|<span class="string">内容</span>|<span class="string">  </span></span><br><span class="line">|<span class="string">-</span>|<span class="string">内容</span>|<span class="string">内容</span>|<span class="string">内容</span>|</span><br></pre></td></tr></table></figure>
 <p>例子:  </p>
-<figure class="highlight gherkin"><table><tr><td class="code"><pre><span class="line">|<span class="string">姓名</span>|<span class="string">年龄</span>|<span class="string">是否沙雕</span>|<span class="string">关系</span>|<span class="string">  </span></span><br><span class="line">|<span class="string">:-:</span>|<span class="string">-:</span>|<span class="string">:-</span>|<span class="string">-</span>|<span class="string">  </span></span><br><span class="line">|<span class="string">李森</span>|<span class="string">22</span>|<span class="string">否</span>|<span class="string">父亲</span>|<span class="string">  </span></span><br><span class="line">|<span class="string">雷某</span>|<span class="string">21</span>|<span class="string">是</span>|<span class="string">儿子</span>|</span><br></pre></td></tr></table></figure>
+<figure class="highlight gherkin"><table><tr><td class="code"><pre><span class="line">|<span class="string"> 姓名 </span>|<span class="string"> 年龄 </span>|<span class="string"> 是否沙雕 </span>|<span class="string"> 关系 </span>|<span class="string">  </span></span><br><span class="line">|<span class="string"> :--: </span>|<span class="string"> --: </span>|<span class="string"> :-- </span>|<span class="string"> --- </span>|<span class="string">  </span></span><br><span class="line">|<span class="string"> 李森 </span>|<span class="string"> 22 </span>|<span class="string"> 否 </span>|<span class="string"> 父亲 </span>|<span class="string">  </span></span><br><span class="line">|<span class="string"> 雷某 </span>|<span class="string"> 21 </span>|<span class="string"> 是 </span>|<span class="string"> 儿子 </span>|</span><br></pre></td></tr></table></figure>
 <p>效果:  </p>
 <table>
 <thead>
@@ -124,7 +54,89 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
+    <title>Git 基本语法讲解</title>
+    <url>/2019/11/08/Git-grammar/</url>
+    <content><![CDATA[<p>今天尝试这更新这篇技术博客！！！</p>]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法（基础版）</title>
+    <url>/2019/11/01/Markdown_basic_grammar/</url>
+    <content><![CDATA[<p>在目前的技术性应用中，Markdown应用还算是较为广泛。比如国内的简书、掘金都支持Markdown语法，并且Markdown语法简单易用，基本看十分钟教程便可轻易上手写出一篇属于自己的文章，针对于程序猿来说，Markdown语法轻便还条理清晰，是程序猿的不二之选。</p><a id="more"></a>
+<h1 id="Markdown是什么？"><a href="#Markdown是什么？" class="headerlink" title="Markdown是什么？"></a>Markdown是什么？</h1><ul>
+<li>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</li>
+<li>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</li>
+<li>Markdown 编写的文档后缀为 <code>.md</code>,<code>.markdown</code>  </li>
+</ul>
+<h1 id="Markdown怎么写？"><a href="#Markdown怎么写？" class="headerlink" title="Markdown怎么写？"></a>Markdown怎么写？</h1><p>下面我来介绍一下Markdown的基本语法是个什么样的<br>首先我来推荐一下Windows系统下特别好用Markdown编辑器 —— <code>Typora</code></p>
+<h2 id="分级标题"><a href="#分级标题" class="headerlink" title="分级标题"></a>分级标题</h2><p><code>#</code>来表示标题的级别，<code>#</code>越少级别越高<br>例如：  </p>
+<figure class="highlight clean"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br></pre></td></tr></table></figure>
+<p>效果图:  </p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5></blockquote>
+<h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>在需要<em>斜体<em>操作的数据前后分别加上一个 *<br>例如：`</em>李森<em>`<br>效果：</em>李森</em>  </p>
+<h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><p>在需要<strong>粗体</strong>操作的数据前后分别加上一个 *<br>例如：<code>**李森**</code><br>效果：<strong>李森</strong>  </p>
+<h2 id="斜粗体"><a href="#斜粗体" class="headerlink" title="斜粗体"></a>斜粗体</h2><p>在需要<strong><em>斜粗体</em></strong>体操作的数据前后分别加上一个 *<br>例如：<code>***李森***</code><br>效果：<strong><em>李森</em></strong>  </p>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p><code>---</code>或者<code>+++</code>或者<code>***</code>三个或者三个以上即可<br>例如：<code>---</code><br>效果：  </p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote>
+<p>引用1</p>
+<blockquote>
+<p>引用2</p>
+<blockquote>
+<p>引用3</p>
+<blockquote>
+<p>引用4  </p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><ul>
+<li><p>单行代码：<br>  用反引号”`“将代码包起来  </p>
+<p>  例如：`cout&lt;&lt;”雷某有点傻”;`  </p>
+<p>  效果：<code>cout&lt;&lt;&quot;雷某有点傻&quot;;</code></p>
+</li>
+<li><p>多行代码：<br>  用```代码内容``` 格式书写  </p>
+<p>  例如：<br>  ```<br>  int a = 1;<br>  int b = 2;<br>  int c;<br>  c = a + b;<br>  cout&lt;&lt;c;<br>  ```  </p>
+<p>  效果：</p>
+  <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">1</span>;  </span><br><span class="line"><span class="keyword">int</span> b = <span class="number">2</span>;  </span><br><span class="line"><span class="keyword">int</span> c;  </span><br><span class="line">c = a + b;  </span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;c;</span><br></pre></td></tr></table></figure>
+<p>  注意：在代码块结束的时候的```后面一定不要加空格！！！ </p>
+</li>
+</ul>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h3><p>一个<code>-</code>或<code>+</code>或<code>*</code>都可以表示无序列表，但是需要注意的是：<code>-</code>或<code>+</code>或<code>*</code>需要和标题之间留一个空格！否则无效！否则无效！否则无效！<br>例如：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>李森</span><br><span class="line"><span class="bullet">* </span>雷某</span><br><span class="line"><span class="bullet">+ </span>陈某</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<ul>
+<li>李森</li>
+</ul>
+<ul>
+<li>雷某</li>
+</ul>
+<ul>
+<li>陈某  </li>
+</ul>
+<h3 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2.有序列表"></a>2.有序列表</h3><p>数字直接加点即可！注意：同无序列表一样，数字加点与之后的标题一定要留一个空格！！！<br>例如：</p>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span> 李森</span><br><span class="line"><span class="number">2.</span> 雷某</span><br><span class="line"><span class="number">3.</span> 陈某</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<ol>
+<li>李森</li>
+<li>雷某</li>
+<li>陈某  </li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World 你好，世界！</title>
     <url>/2018/11/08/hello-world/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
   <div class="hbe-input-container">
