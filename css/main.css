@@ -1130,11 +1130,6 @@ pre .javascript .function {
   border-bottom-color: #eee;
   color: #eee;
 }
-@media (max-width: 991px) {
-  .sidebar {
-    display: none;
-  }
-}
 .sidebar-inner {
   color: #999;
   padding: 20px 10px;
@@ -1275,7 +1270,7 @@ img:hover {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9eff12;
+  background: #1c328a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1403,7 +1398,6 @@ img:hover {
   .sidebar-toggle {
     left: 20px;
     opacity: 0.8;
-    display: none;
   }
 }
 .sidebar-toggle:hover .toggle-line {
@@ -3110,12 +3104,12 @@ div.vcontrol {
 }
 .headband {
   height: 3px;
-  background: #040b2e;
+  background: #2e0f07;
 }
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: #040b2e;
+  background: #000468;
 }
 .site-subtitle {
   margin-top: 10px;
