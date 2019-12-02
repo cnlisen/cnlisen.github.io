@@ -21,6 +21,7 @@ tags: Markdown
 `![图片名称](https://图片网址部分)`
 例如：`![惊喜](https:/***.***.***)`  
 效果：![suprice](http://q1tyod6cd.bkt.clouddn.com/blog/20191201/F5bqbKCLkQk3.jpg?imageslim)
+   
 ## 表格  
 语法如下：在Markdown的表格语法中，第二行主要是定义表格的`居左`或`居中`或`居右`的属性的。  
 - 当`:`在`-`左边时，居左；

@@ -26,11 +26,21 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/Markdown_advanced_grammar.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <first_editor relative-caret-position="-246">
+                <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNAME.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/CNAME.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,7 +115,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.deploy_git" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.deploy_git" value="master" />
+        <entry key="$PROJECT_DIR$/.deploy_git" value="src" />
       </map>
     </option>
   </component>
@@ -117,7 +127,6 @@
         <option value="$PROJECT_DIR$/themes/next/layout/_partials/head.swig" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/sidebar/sidebar-author.styl" />
         <option value="$PROJECT_DIR$/source/_posts/l-one.md" />
-        <option value="$PROJECT_DIR$/source/CNAME.txt" />
         <option value="$PROJECT_DIR$/source/_posts/l-two.md" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_common/outline/sidebar/sidebar-author.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/js/schemes/love.js" />
@@ -149,6 +158,7 @@
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_custom/custom.styl" />
         <option value="$PROJECT_DIR$/source/_posts/Markdown_advanced_grammar.md" />
+        <option value="$PROJECT_DIR$/source/CNAME.txt" />
       </list>
     </option>
   </component>
@@ -503,7 +513,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17167382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -540,13 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/third-party/gitalk.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/outline/outline.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -912,11 +915,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/CNAME.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/Markdown_advanced_grammar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <first_editor relative-caret-position="-246">
+            <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor />
