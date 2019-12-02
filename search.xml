@@ -10,7 +10,7 @@
 <li><h3 id="直接链接（只显示网址）"><a href="#直接链接（只显示网址）" class="headerlink" title="直接链接（只显示网址）"></a>直接链接（只显示网址）</h3><p><code>&lt;https://链接网址部分&gt;</code>直接在<code>链接网址部分</code>添加网址即可<br>例如：<code>&lt;https://www.lisen.plus&gt;</code><br>效果：<a href="https://www.lisen.plus">https://www.lisen.plus</a></p>
 </li>
 </ul>
-<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><code>![图片名称](https://图片网址部分)</code><br>例如：<code>![惊喜](https:/***.***.***)</code><br>效果：<img src="http://q1tyod6cd.bkt.clouddn.com/blog/20191201/F5bqbKCLkQk3.jpg?imageslim" alt="suprice">{:height=”10px” width=”40px”}</p>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><code>![图片名称](https://图片网址部分)</code><br>例如：<code>![惊喜](https:/***.***.***)</code><br>效果：<img src="http://q1tyod6cd.bkt.clouddn.com/blog/20191201/F5bqbKCLkQk3.jpg?imageslim" alt="suprice"></p>
 <h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>语法如下：在Markdown的表格语法中，第二行主要是定义表格的<code>居左</code>或<code>居中</code>或<code>居右</code>的属性的。  </p>
 <ul>
 <li>当<code>:</code>在<code>-</code>左边时，居左；</li>
